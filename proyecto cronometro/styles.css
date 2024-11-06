@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background-image: url('Imagenes/wallpaper.jpg');
+display: flex;
+height: 100vh;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.contenedor-principal{
+    height: 35vh;
+    width: 30vw;
+    background-color: white;
+    min-height: 240px;
+    min-width: 300px;
+}
+
+.contenedor-interno{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+#cronometro {
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 80px;
+    
+}
+
+.contenedor-botones{
+    display: flex;
+}
+
+.boton{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+
+.iniciar{
+    font-size: 45px;
+    background-color: rgb(5, 255, 5);
+}
+
+.pausa{
+    font-size: 45px;
+    background-color: rgb(5, 155, 255);
+}
+
+#boton-reiniciar{
+    font-size: 35px;
+    background-color: red;
+}
+
