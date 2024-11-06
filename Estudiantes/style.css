@@ -1,0 +1,173 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #000;
+    margin: 0;
+}
+
+
+#body-index{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 80vw;
+    max-width: 700px;
+    min-height: 30vh;
+    background-color: rgb(14, 14, 80);
+    padding: 7% 10%;
+    border-radius: 10px;
+}
+
+
+
+.formulario-titulo{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin: 0;
+    margin-bottom: 8%;
+}
+
+.input_container{
+    width: 100%;
+}
+
+.input{
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 1em;
+    color: white;
+    border: none;
+    background-color: transparent;
+    border-top: solid 2px rgb(23, 84, 175);
+    margin: 2% 0;
+    outline: none; 
+    ;
+}
+
+.input:focus{
+    background-color: rgba(74, 208, 241, 0.363);
+    transition: 0.3s
+    
+}
+
+.enviar{
+    margin-top: 1.5%;
+    padding: 7% 25%;
+    background-color: rgb(23, 84, 175);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.enviar:hover{
+    transform: scale(1.1);
+}
+
+.resultado{
+    margin-top: 10px;
+    padding: 0.1px 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.resultado > p {
+    color: white;
+}
+
+.container_successful{
+    background-color: rgba(107, 241, 74, 0.363);
+    border: solid 1px rgb(107, 241, 74);
+}
+
+.container_error{
+    background-color: rgba(240, 55, 55, 0.363);
+    border: solid 1px rgb(240, 55, 55);
+}
+
+/* Estilos de estudiantes */
+
+.table-container{
+    padding: 2% 3%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.table{
+    width: 100%;
+    max-width: 900px;
+}
+
+.table tr{
+    color: white;
+}
+
+
+.table-title{
+    background-color: rgb(55, 53, 196);
+    font-size: 22px;
+}
+
+.table-campos{
+    background-color: rgb(96, 170, 212);
+}
+
+.table td{
+    text-align: center;
+}
+
+.btn{
+    border: none;
+    border-radius: 3px;
+    font-weight: bolder;
+    padding: 10% 10%;
+    color: white;
+    cursor: pointer;
+    margin: 2%;
+    transition: transform 0.2s ease;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.week1{
+    background-color: rgb(22, 111, 245);
+}
+
+.week2{
+    background-color: rgb(7, 11, 209);
+}
+
+.aprobo{
+    background-color: rgb(11, 233, 11);
+}
+.devolver{
+    background-color: rgb(245, 22, 22);
+}
+
+.tr-impar{
+    background-color: rgb(206, 206, 206);
+}
+
+.tr-par{
+    background-color: rgb(155, 155, 155);
+}
+
+.link{
+    display: block;
+    margin: 20px;
+}
