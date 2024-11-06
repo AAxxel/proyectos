@@ -1,0 +1,2 @@
+Este es un sistema que estoy desarrollando para una empresa en una de mis clases, yo soy el encargado de administrar la base de datos y de realizar los cruds.
+Sin embargo tambien he estado muy involucrado en el lado del FrontEnd, utilizando vue.js
